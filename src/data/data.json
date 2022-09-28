@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Carlos",
+      "lastName": "Arcia",
+      "email": "cfar.dev@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Francisco",
+      "lastName": "Varela",
+      "email": "franvar23@gmail.com"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "title": "Universidad",
+      "keywords": ["estudios", "importante", "ingeniería"],
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Casa",
+      "keywords": ["habitación", "ropa", "limpieza"],
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Compras",
+      "keywords": ["supermercado", "alimentos", "productos", "ropa"],
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "title": "Facturas",
+      "keywords": ["luz", "agua", "impuestos"],
+      "userId": 2
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Terminar ensayo de historia",
+      "completed": false,
+      "todoId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Estudiar para examen de programación",
+      "completed": true,
+      "todoId": 1,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Limpiar sala",
+      "completed": false,
+      "todoId": 2,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "Ordenar habitación",
+      "completed": true,
+      "todoId": 2,
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "title": "Comprar 2 galones de leche",
+      "completed": true,
+      "todoId": 3,
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "title": "Comprar 3 Kilogramos de Carne",
+      "completed": false,
+      "todoId": 3,
+      "userId": 2
+    },
+    {
+      "id": 7,
+      "title": "Pagar factura de luz",
+      "completed": true,
+      "todoId": 4,
+      "userId": 2
+    },
+    {
+      "id": 8,
+      "title": "Pagar factura de agua",
+      "completed": true,
+      "todoId": 4,
+      "userId": 2
+    }
+  ]
+}
